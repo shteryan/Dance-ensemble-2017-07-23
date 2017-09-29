@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.  Зала за танци", "01.  Зала за танци\01.  Зала за танци.csproj", "{C2DE2C50-FAC1-49B9-BEC8-88B072FD2FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Хореография", "02. Хореография\02. Хореография.csproj", "{DF81EDDA-6909-472E-B5D8-BA13BF986F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Финален конкурс", "Финален конкурс\03. Финален конкурс.csproj", "{8EDEF78A-5919-4355-8A50-FA0FA3150CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Разход на енергия", "04. Разход на енергия\04. Разход на енергия.csproj", "{1D4C5D35-0BC7-4D88-876F-5B2DCC4218B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Купа", "05. Купа\05. Купа.csproj", "{88FE3DB7-F09E-4A29-9C4B-108F73D76624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Име на група", "06. Име на група\06. Име на група.csproj", "{B0C79D62-AFF8-46E8-B7F8-B321D5B8AACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DE2C50-FAC1-49B9-BEC8-88B072FD2FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DE2C50-FAC1-49B9-BEC8-88B072FD2FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DE2C50-FAC1-49B9-BEC8-88B072FD2FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DE2C50-FAC1-49B9-BEC8-88B072FD2FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF81EDDA-6909-472E-B5D8-BA13BF986F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF81EDDA-6909-472E-B5D8-BA13BF986F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF81EDDA-6909-472E-B5D8-BA13BF986F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF81EDDA-6909-472E-B5D8-BA13BF986F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDEF78A-5919-4355-8A50-FA0FA3150CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDEF78A-5919-4355-8A50-FA0FA3150CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDEF78A-5919-4355-8A50-FA0FA3150CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDEF78A-5919-4355-8A50-FA0FA3150CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4C5D35-0BC7-4D88-876F-5B2DCC4218B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4C5D35-0BC7-4D88-876F-5B2DCC4218B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4C5D35-0BC7-4D88-876F-5B2DCC4218B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4C5D35-0BC7-4D88-876F-5B2DCC4218B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FE3DB7-F09E-4A29-9C4B-108F73D76624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FE3DB7-F09E-4A29-9C4B-108F73D76624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FE3DB7-F09E-4A29-9C4B-108F73D76624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FE3DB7-F09E-4A29-9C4B-108F73D76624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C79D62-AFF8-46E8-B7F8-B321D5B8AACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C79D62-AFF8-46E8-B7F8-B321D5B8AACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C79D62-AFF8-46E8-B7F8-B321D5B8AACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C79D62-AFF8-46E8-B7F8-B321D5B8AACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12335C65-54C9-458D-AA8F-CBEEDAA35E21}
+	EndGlobalSection
+EndGlobal
