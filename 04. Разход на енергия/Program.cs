@@ -10,20 +10,14 @@ namespace _04.Разход_на_енергия
     {
         static void Main(string[] args)
         {
-            //Take info form the user
-            //1.N – брой тренировъчни дни – цяло число в интервала[0 … 31].
-            //2.А – брой танцьори – цяло число в интервала[0 … 100].
-
             double daysTraining = int.Parse(Console.ReadLine());
             double numberOfDancers = int.Parse(Console.ReadLine());                    
-            
-            //Set up variables for the calculations      
+                              
             int currentDayOfTraining = 0;
             int hoursTrainingToday = 0;
             double energyWatedSoFar = 0;
             double energyToday = 0;        
             
-            //Make the logical checks and take training hours info
             for (currentDayOfTraining = 1; currentDayOfTraining <= daysTraining; currentDayOfTraining++)
             {
                 hoursTrainingToday = int.Parse(Console.ReadLine());
@@ -52,13 +46,11 @@ namespace _04.Разход_на_енергия
                 double energyWastedToday = numberOfDancers * energyToday;
                 energyWatedSoFar += energyWastedToday;
             }
-
-            //Make the final calculations
+                        
             double potentialCrewEnergy = 100 * daysTraining * numberOfDancers;
             double energyLeft = potentialCrewEnergy - energyWatedSoFar;
             double energyLeftPerDancerForADay = energyLeft / numberOfDancers / daysTraining;
-
-            //Print the result on the console
+                       
             if (energyLeftPerDancerForADay <= 50)
             {
                 Console.WriteLine($"They are wasted! Energy left: {energyLeftPerDancerForADay:F2}");
@@ -67,7 +59,6 @@ namespace _04.Разход_на_енергия
             {
                 Console.WriteLine($"They feel good! Energy left: {energyLeftPerDancerForADay:F2}");
             }
-
         }
     }
 }
