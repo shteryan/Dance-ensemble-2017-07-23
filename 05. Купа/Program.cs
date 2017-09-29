@@ -10,17 +10,14 @@ namespace _05.Купа
     {
         static void Main(string[] args)
         {
-            //Take size ratio from the user
             int size = int.Parse(Console.ReadLine());
-
-            //Set up variables for printing the object
+            
             int objectWidth = 5 * size;
             int cupRow = 3 * size - 2;
-
-            //Set up chars and strings for printing the object
+            
             char hashtag = '#';
             char dot = '.';
-            string danceSign = "D^A^N^C^E^"; // 10 symbols
+            string danceSign = "D^A^N^C^E^"; 
             string rowToPrint = string.Empty;
 
 
